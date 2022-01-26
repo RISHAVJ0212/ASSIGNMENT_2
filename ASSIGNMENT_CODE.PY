@@ -99,7 +99,8 @@ elif Third_num > First_num and Third_num > Second_num:
 else:
     print("Out of the given Numbers Two Or Three Numbers are equal")
 
-print("The Largest Number is\t:\t",Greatest_num)
+if Greatest_num != "":
+    print("The Largest Number is\t:\t",Greatest_num)
 
 
 
